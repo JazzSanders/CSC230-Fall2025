@@ -1,9 +1,8 @@
 @charset "utf-8";
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 1
+   Modified from Tutorial 1 base.css from New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial Case
-   Filename: ct_layout1.css
+   Filename: JKS_layout1.css
 
    This file contains the layout styles used in the ct_start.html page.
 
@@ -67,8 +66,8 @@ footer {
 	text-align: center;
 	font-size: 0.45em;
 	margin-top: 30px;
-	border-top: 2px solid rgba(128,98,26,1.00);
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	border-top: 2px solid rgb(76, 207, 255);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -118,7 +117,7 @@ footer {
 
 @media only screen and (min-width: 769px) {
 html {
-	background-color: rgba(176,124,48,1.00);
+	background-color: rgb(76, 207, 255);
 	margin: 0px auto;
 }
 body {

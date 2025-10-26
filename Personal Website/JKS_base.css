@@ -1,8 +1,8 @@
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 1
+   
+   Modified from Tutorial 1 base.css from New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial Case
-   Filename: base.css
+   Filename: JKS_base.css
 
    This file contains the base styles used by all pages in the website
 
@@ -30,8 +30,8 @@ html {
 	-ms-text-size-adjust: 100%;
 }
 html, button, input, select, textarea {
-	font-family: serif;
-	color: #222;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #000000;
 }
 body {
 	margin: 0;
@@ -83,24 +83,24 @@ hr {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #45d7ff;
 	margin: 1em 0;
 	padding: 0;
 }
 ins {
-	background: #ff9;
+	background: #00a4d1;
 	color: #000;
 	text-decoration: none;
 }
 mark {
-	background: #ff0;
+	background: #00a4d1;
 	color: #000;
 	font-style: italic;
 	font-weight: bold;
 }
 pre, code, kbd, samp {
-	font-family: monospace, serif;
-	_font-family: 'courier new', monospace;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	_font-family: Verdana, monospace;
 	font-size: 1em;
 }
 pre {
