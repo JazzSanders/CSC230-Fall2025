@@ -99,6 +99,10 @@ nav > ul {
   padding-left: 5px;
 }
 
+nav > ul > li:nth-child(6),
+nav > ul > li:nth-child(16) {
+  margin-top: 20px;
+}
 
 /* Paragraph Styles */
 
