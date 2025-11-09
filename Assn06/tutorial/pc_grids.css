@@ -37,6 +37,11 @@ body > header {
    grid-column: 1/-1;
 }
 
+body> article {grid-area: intro;}
+body > aside {grid-area: faq;}
+body > section { grid-area: articles;}
+body > footer {grid-area: footer;}
+
 section > * {
    outline: 2px dashed blue;
 }
