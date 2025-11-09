@@ -28,6 +28,11 @@ body > * {
    outline: 2px dashed red;
 }
 
+body > header {
+   grid-row: 1;
+   grid-column: 1/-1;
+}
+
 section > * {
    outline: 2px dashed blue;
 }
