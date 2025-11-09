@@ -13,8 +13,9 @@
 
 /* Main Styles */
 main {
+   overflow: auto;
    position: relative;
-   height: 1400pc;
+   height: 450px;
    width: 100%;
 }
 
