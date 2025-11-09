@@ -28,6 +28,10 @@ section {
    grid-template-columns: repeat(2, 1fr);
 }
 
+section > h1 {
+   grid-area: 1/1/2/3;
+}
+
 body > * {
    outline: 2px dashed red;
 }
@@ -37,7 +41,7 @@ body > header {
    grid-column: 1/-1;
 }
 
-body> article {grid-area: intro;}
+body > article {grid-area: intro;}
 body > aside {grid-area: faq;}
 body > section { grid-area: articles;}
 body > footer {grid-area: footer;}
