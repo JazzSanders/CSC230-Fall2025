@@ -51,10 +51,11 @@ section#leftColumn {
    width: 33%;
 }
 
-
-
 /* Right Column Styles */
-
+section#rightColumn {
+   float: left;
+   width: 67%;
+}
 
 
 
