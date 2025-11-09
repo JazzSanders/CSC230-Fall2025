@@ -10,7 +10,6 @@
    Filename: pc_info.css
 
 */
-div.infobox {display:none;}
 
 /* Main Styles */
 main {
@@ -67,10 +66,17 @@ div#info6 {
 }
 
 /* Seventh Infographic */
-
-
+div#info7 {
+   display: block;
+   top: 1000px;
+   left: 68%;
+}
 
 /* Eighth Infographic */
-
+div#info8 {
+   display: block;
+   top: 1100px;
+   left: 12%;
+}
 
 
