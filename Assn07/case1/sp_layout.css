@@ -71,7 +71,7 @@ section img {
 
 section p {
    width: 70%;
-   margin: 0 auto; /* Centers the paragraph */
+   margin: 0 auto;
 }
 
 /* HR Styles */
@@ -80,7 +80,10 @@ section p {
 
 
 /* Customer Comment Styles */
-
+aside {
+   width: 75%;
+   padding-bottom: 30px;
+}
 
 
 /* Footer Styles */
