@@ -33,7 +33,7 @@ img {
 /* Grid Styles */
 body {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: repeat(4, 1fr);
 }
 
 img#logo {
@@ -48,13 +48,6 @@ nav.horizontal, footer {
 aside {
    grid-column: span 2;
 }
-
-/* Page Header Styles */
-
-
-
-
-
 
 /* Horizontal Navigation List Styles */
 nav.horizontal ul li {
@@ -74,11 +67,6 @@ section p {
    margin: 0 auto;
 }
 
-/* HR Styles */
-
-
-
-
 /* Customer Comment Styles */
 aside {
    width: 75%;
@@ -94,6 +82,10 @@ aside img {
    width: 20%;
 }
 
-/* Footer Styles */
+aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+}
 
 
