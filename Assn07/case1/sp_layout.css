@@ -30,8 +30,11 @@ img {
    display: block;
 }
 
-/* Row Styles */
-
+/* Grid Styles */
+body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 
