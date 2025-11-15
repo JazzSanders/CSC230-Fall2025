@@ -53,6 +53,20 @@ body {
   padding: 10px;
 }
 
+/* Aside styling */
+aside {
+    float: right; /* Float the aside to the right */
+    width: 66.66%; /* Approximately 2/3 of the screen width */
+    margin-left: 20px; /* Add some space between main content and aside */
+    background-color: #f0f0f0; /* Optional: for visual distinction */
+    padding: 20px; /* Add padding inside the aside */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+aside h3 { /* Selects an h3 header directly within an aside */
+  text-align: center;
+}
+
 /* Style the footer */
 .footer {
   background-color: #1c4231;
