@@ -25,6 +25,8 @@ table.schedule {
 /* Table Cell Styles */
 table.schedule th, table.schedule td {
    border: 1px solid grey;
+   padding: 5px;
+   vertical-align: top;
 }
 
 /* Table Caption Styles */
