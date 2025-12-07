@@ -64,7 +64,6 @@ ul {
    margin-left: 0.5in;
 }
 
-
 /* Image Styles */
 article im {
    border: 2px sold rgb(191, 191, 191);
@@ -73,10 +72,17 @@ article im {
    width: 65%;
 }
 
-
-
 /* Hypertext Styles */
+a {
+   color: black;
+   text-decoration: none;
+}
 
+a::after {
+   content: " (" attr(href) ") ";
+   font-weight: bold;
+   word-wrap: break-word;
+}
 
 
 
