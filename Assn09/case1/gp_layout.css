@@ -35,15 +35,23 @@ article {
 flex: 1 3 180px;
 }
 
-
-
 /* ============================================
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
+@media screen and (max-width: 480px) {
+.panel {
+width: 100%;
+}
 
+nav.horizontal {
+order: 99;
+}
 
-
+body > footer {
+order: 100;
+}
+}
 
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
