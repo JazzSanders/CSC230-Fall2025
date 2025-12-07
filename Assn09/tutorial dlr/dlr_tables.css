@@ -33,10 +33,15 @@ table.schedule caption {
    text-align: right;
 }
 
-
 /* Row Group Styles */
-
-
+table.schedule thead {
+   background: rgb(153, 0, 153);
+   color: white;
+}
+table.schedule tfoot {
+   background: black;
+   color: white;
+}
 
 /* Column Group Styles */
 
