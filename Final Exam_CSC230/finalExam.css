@@ -9,3 +9,126 @@
       Description: style sheet for final project for CSC230-Website Design (Fall 2025)
 
 */
+
+/* Body Styles */
+body {
+    font-family: Verdana, Tahoma, Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 16pt;
+    width: 85%;
+    margin: auto;
+    background-color: #333333;
+}
+
+/* Header h1 */
+header h1 {
+    font-size: 36pt;
+    margin: 35px 0px 0px 0px;
+    padding: 15px 0px 0px 15px;
+    /* Background color set the same as the <nav> area (using a variable or a specific light color) */
+    /* Assuming <nav> background is #e0ffff (light cyan) for this example */
+    background-color: #e0ffff;
+}
+
+/* Header h3 */
+header h3 {
+    font-size: 24pt;
+    margin: 0px;
+    padding: 0px 0px 15px 15px;
+    /* Background color set the same as the <nav> area */
+    background-color: #e0ffff;
+}
+
+/* h1 */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+    /* Dark color that will contrast the <section> below (which is light) */
+    color: #004d40;
+}
+
+/* h3 */
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    /* Color different than h1 and contrasts <section> below */
+    color: #c62828; /* Dark red */
+}
+
+/* p */
+p {
+    margin: 15px;
+    padding: 15px;
+}
+
+/* a */
+a {
+    text-decoration: none;
+    color: #1976d2;
+}
+
+a:hover {
+    /* Changes color (your choice) when you hover over the text */
+    color: #ffb300;
+}
+
+/* table */
+table {
+    border: none;
+    padding: 2px 5px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+
+/* <header> definition */
+header {
+    overflow: auto;
+    background-color: #e0ffff;
+    border-bottom: 3px solid #666;
+}
+
+/* <nav> definition */
+nav {
+    float: left;
+    background-color: #e0ffff;
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    text-align: center;
+    border-right: 2px solid #666;
+    /* IMPORTANT: The height requirement needs a manual adjustment based on <section> content.
+       For structural integrity, using Flexbox or Grid is better, but since the request implies simple
+       flow and manual height adjustment, we stick to float and *will need manual height later*.
+       We'll set an initial min-height based on expected content.
+    */
+    min-height: 500px;
+}
+
+/* <section> definition */
+section {
+    overflow: hidden;
+    width: 75%;
+    background-color: #f0fff0; /* Honeydew (very light green) */
+    padding: 15px;
+    box-sizing: border-box; /* Include padding in the 75% width calculation */
+    /* Clear the body margin that might be around the content if not careful */
+    margin: 0;
+}
+
+/* <footer> definition */
+footer {
+    clear: both;
+    background-color: #444444;
+    color: #cccccc;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #666;
+    font-size: 0.8em;
+}
