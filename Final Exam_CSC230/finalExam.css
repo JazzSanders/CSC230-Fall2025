@@ -132,3 +132,11 @@ footer {
     border-top: 3px solid #666;
     font-size: 0.8em;
 }
+
+/* Image inside the <header> */
+.profile-pic {
+    float: right;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
