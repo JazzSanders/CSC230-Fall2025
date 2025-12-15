@@ -99,7 +99,7 @@ nav {
     color: #000000;
     text-align: center;
     border-right: 2px solid #666;
-    height: 2208px; /* requires manual adjustment */
+    height: 100%; /* requires manual adjustment */
 }
 
 /* a */
